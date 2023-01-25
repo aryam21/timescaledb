@@ -1,7 +1,7 @@
 app:
     name: timescaledb
     code: POSTGRES
-    notify: aramanan@cloudcontrol.com
+    notify: aramanan@ecloudcontrol.com
     
 build:
     version: 2.7.0
