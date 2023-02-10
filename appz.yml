@@ -4,11 +4,11 @@ app:
     notify: aramanan@ecloudcontrol.com
     
 build:
-    version: 2.7.0
+    version: 2.7
     env: DEV
     build_file: none
     output_files: output/*.zip
-    image_template: timescale/timescaledb:2.7.0-pg13
+    image_template: timescaledb-2.7
     
 deploy:
     context: aryam21/DEV
